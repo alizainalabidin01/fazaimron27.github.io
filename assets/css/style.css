@@ -1,0 +1,131 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    background: linear-gradient(20deg,#C2289B,#7022A8);
+    background: -webkit-linear-gradient(20deg,#C2289B,#7022A8);
+    background: -moz-linear-gradient(20deg,#C2289B,#7022A8);
+    background: -o-linear-gradient(20deg,#C2289B,#7022A8);
+    display: flex;
+    height: 150vh;
+}
+
+.dropdown-button {
+    font-weight: 600;
+}
+
+.dropdown-button:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+    z-index: 99;
+    display: none;
+    position: relative;
+    background: #fff; 
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0, 0.5);
+    
+}
+
+.dropdown-menu li {
+    list-style: none;
+    position: relative;
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.dropdown-button::after {
+    margin-left: 5px;
+    content: "\f0dd";        
+    position: relative;
+    top: -3px;
+    font-family: "FontAwesome";    
+} 
+
+.content {
+    width: 95%;
+    height: 800px;
+    background-color: #ffffff;
+    margin: 50px;
+    border: .5px solid #CFCBCD;
+}
+
+.navigasi {
+    float: right;
+}
+
+.text {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 25px;
+}
+
+.text li {
+    float: left;
+    padding: 10px;
+    font-family: 'arial';
+    font-size: 15px;
+    color: #565456;
+    margin-top: 30px;
+}
+
+.text li:hover {
+    cursor: pointer;
+    color: #000;
+    /* text-decoration: underline #565456; */
+    transition: .5s;
+}
+
+.sign_in {
+    padding: 10px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: 1px solid #7022A8;
+    background-color: #7022A8;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.text_logo {
+    width: 87px;
+    padding: 7px;
+    margin-left: 50px;
+    margin-top: 20px;
+    /* font-family: 'arial'; */
+    font-size: 25px;
+    font-weight: lighter;
+    font-weight: bold;
+    border: 5px solid #C2289B;
+    color: #C2289B;
+    cursor: pointer;  
+}
+
+.text_up {
+    /* font-family: 'arial'; */
+    font-size: 15px;
+    color: #565456; 
+    margin-top: 200px;
+    margin-left: 75px;        
+}
+
+.text_bottom {
+    /* font-family: 'sans-serif'; */
+    font-style: italic;
+    font-weight: 100;
+    font-size: 75px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+img {
+    display: block;
+    margin-top: 35px;
+}
