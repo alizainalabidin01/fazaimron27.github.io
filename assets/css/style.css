@@ -191,15 +191,19 @@ body {
 }
 
 .sign_in {
-    padding: 7px;
+    padding: 5px;
+    font-size: 14px;
     float: right;
-    margin-right: 50px;
-    margin-top: 30px;
-    border: 1px solid #7022A8;
-    background-color: #7022A8;
-    border-radius: 10px;
-    color: #ffffff;
+    margin-right: 60px;
+    margin-top: 35px;
+    color: rgb(218, 73, 181);
+    font-weight: bold;
     cursor: pointer;
+}
+
+.sign_in:hover {
+    color: #C2289B;
+    transition: 1s;
 }
 
 .text_logo {
