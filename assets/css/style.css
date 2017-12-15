@@ -27,6 +27,7 @@ body {
     background: #fff; 
     border-radius: 2px;
     box-shadow: 0 0 2px 0px rgba(0,0,0, 0.5);
+    margin-top: 10px;
     
 }
 
@@ -44,7 +45,115 @@ body {
     position: relative;
     top: -3px;
     font-family: "FontAwesome";    
-} 
+}
+
+.dropdown-button2 {
+    font-weight: 600;
+}
+
+.dropdown-button2:hover .dropdown-menu2 {
+    display: block;
+}
+
+.dropdown-menu2 {
+    position: absolute !important;
+    z-index: 99;
+    display: none;
+    position: relative;
+    background: #fff; 
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0, 0.5);
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.dropdown-menu2 li {
+    list-style: none;
+    position: relative;
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.dropdown-button2::after {
+    margin-left: 5px;
+    content: "\f0dd";        
+    position: relative;
+    top: -3px;
+    font-family: "FontAwesome";
+}
+
+.dropdown-button3 {
+    font-weight: 600;
+}
+
+.dropdown-button3:hover .dropdown-menu3 {
+    display: block;
+}
+
+.dropdown-menu3 {
+    position: absolute !important;
+    z-index: 99;
+    display: none;
+    position: relative;
+    background: #fff; 
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0, 0.5);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.dropdown-menu3 li {
+    list-style: none;
+    position: relative;
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.dropdown-button3::after {
+    margin-left: 5px;
+    content: "\f0dd";        
+    position: relative;
+    top: -3px;
+    font-family: "FontAwesome";
+}
+
+.dropdown-button4 {
+    font-weight: 600;
+}
+
+.dropdown-button4:hover .dropdown-menu4 {
+    display: block;
+}
+
+.dropdown-menu4 {
+    position: absolute !important;
+    z-index: 99;
+    display: none;
+    position: relative;
+    background: #fff; 
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0px rgba(0,0,0, 0.5);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.dropdown-menu4 li {
+    list-style: none;
+    position: relative;
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.dropdown-button4::after {
+    margin-left: 5px;
+    content: "\f0dd";        
+    position: relative;
+    top: -3px;
+    font-family: "FontAwesome";
+}
 
 .content {
     width: 95%;
@@ -78,12 +187,11 @@ body {
 .text li:hover {
     cursor: pointer;
     color: #000;
-    /* text-decoration: underline #565456; */
     transition: .5s;
 }
 
 .sign_in {
-    padding: 10px;
+    padding: 7px;
     float: right;
     margin-right: 50px;
     margin-top: 30px;
@@ -95,11 +203,10 @@ body {
 }
 
 .text_logo {
-    width: 87px;
+    width: 77px;
     padding: 7px;
     margin-left: 50px;
     margin-top: 20px;
-    /* font-family: 'arial'; */
     font-size: 25px;
     font-weight: lighter;
     font-weight: bold;
@@ -109,15 +216,14 @@ body {
 }
 
 .text_up {
-    /* font-family: 'arial'; */
     font-size: 15px;
     color: #565456; 
     margin-top: 200px;
-    margin-left: 75px;        
+    margin-left: 80px;
+    font-weight: 50;        
 }
 
 .text_bottom {
-    /* font-family: 'sans-serif'; */
     font-style: italic;
     font-weight: 100;
     font-size: 75px;
@@ -128,4 +234,5 @@ body {
 img {
     display: block;
     margin-top: 35px;
+    margin: 0 auto;
 }
